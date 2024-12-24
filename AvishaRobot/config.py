@@ -34,7 +34,7 @@ class Config(object):
    
     BOT_USERNAME = getenv("BOT_USERNAME" , "Hinatarobot_bot")
    
-    DATABASE_URL = getenv("DATABASE_URL", None)
+    DATABASE_URL = getenv("DATABASE_URL", "postgres://u50ubkidcbac7d:pa183546229859954c5a5f8bccdc5caab94da34be0586caf9d69c307b40138693@ca8a5csd8gqht9.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d527vlkrqg4vtu")
 
     CASH_API_KEY = getenv("CASH_API_KEY", "V48U2FLLKRHSVD4X")
     
