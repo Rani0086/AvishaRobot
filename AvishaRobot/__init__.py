@@ -166,6 +166,7 @@ telethn = TelegramClient("avisha", API_ID, API_HASH)
 pbot = Client("AvishaRobot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN,in_memory=True)
 dispatcher = updater.dispatcher
 
+from aiohttp import ClientSession
 print("[INFO]: Getting Bot Info...")
 BOT_ID = dispatcher.bot.id
 BOT_NAME = dispatcher.bot.first_name
