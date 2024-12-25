@@ -22,11 +22,11 @@ class Config(object):
    
     START_IMG = getenv("START_IMG", "https://graph.org/file/eaa3a2602e43844a488a5.jpg")
 
-    JOIN_LOGGER = getenv("JOIN_LOGGER", "-1002119873436")
+    JOIN_LOGGER = getenv("JOIN_LOGGER", "-1002468653401")
    
-    EVENT_LOGS = getenv("EVENT_LOGS",  "-1002119873436")
+    EVENT_LOGS = getenv("EVENT_LOGS",  "-1002468653401")
   
-    ERROR_LOGS = getenv("ERROR_LOGS", "-1002119873436")
+    ERROR_LOGS = getenv("ERROR_LOGS", "-1002468653401")
 
     MONGO_DB_URI= getenv("MONGO_DB_URI", None)
    
